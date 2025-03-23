@@ -1,6 +1,6 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
-    background-image: url("images/table.png");
+    background-image: url("table.png");
     background-size: cover;
     font-weight: bold;
     color: white;
@@ -24,8 +24,15 @@ button {
     font-weight: bold;
     border: none;
     border-radius: 2px;
-    margin-bottom: 2px;
-    margin-top: 2px;
+    margin-bottom: 12px;
+    margin-top: 8px;
+}
+#bet-el{
+    border: 2px solid goldenrod;
+    border-radius: 35px;
+    padding: 10px;
+    margin: 10px auto;
+    box-shadow: 0px 0px 15px ;
 }
 #player-el{
     border: 2px solid goldenrod;
@@ -39,4 +46,12 @@ button {
 #player-el:hover{
     cursor: pointer;
     font-size: 150%;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    ;
 }

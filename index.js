@@ -1,5 +1,5 @@
 //+needs modify: 1 has 11 score. >10 has 10 score. make changes
-//+a new place to showcase all gthe money left after loss and wins
+//+a new place to showcase all the money left after loss and wins
 
 
 let x = [] //array of cards. it is universal. so any reassignment or modification is saved here.
